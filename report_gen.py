@@ -25,8 +25,6 @@ def make_arabic_report():
     heading.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     # معلومات المشروع
-    p = doc.add_paragraph(f"رابط GitHub: https://github.com/mohamad1991277-spec/gis-join-tool")
-    set_rtl(p)
     p = doc.add_paragraph(f"رابط التطبيق المباشر: https://gis-join-tool.streamlit.app")
     set_rtl(p)
     p = doc.add_paragraph("إعداد الطالب: أنس محمد زقوت")
